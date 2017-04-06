@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Replication</title>
+    <style>
+    .google {
+        color: gray;
+        font-size: 14px;
+        width: 150px;
+        background-color: #e2e2e2;
+        height: 36px;
+        font-weight: bold;
+        border-radius: 2px;
+        border: none;
+        margin: 1.5px;
+    }
+    
+    .google:hover {
+        color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #9a9a9a;
+        box-shadow: .5px .5px .25px #888888;
+    }
+    
+    .logo {
+        width: 300px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 125px;
+    }
+    
+    .searchBar {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+    .topBar {
+        text-align: right;
+    }
+    
+    footer {
+        bottom: 0;
+        position: absolute;
+        background: #efecec;
+        width: 100%;
+        padding: 10px;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #717070;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: gray;
+    }
+    
+    footer .left {
+        float: left;
+        text-align: left;
+    }
+    
+    footer .right {
+        float: right;
+        text-align: right;
+        margin-right: 25px;
+    }
+    
+    li {
+        list-style-type: none;
+        display: block;
+        padding: 7px;
+        margin: -3px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="topBar">
+        <ul>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <a href="#">Google Apps</a>
+            <a href="#">Notifications</a>
+            <a href="#">My Pic</a>
+        </ul>
+    </nav>
+    <img class="logo" src="logo.png">
+    <br>
+    <div class="searchBar">
+        <form>
+            <input type="text" placeholder="Search Google or type URL">
+            <img src="mic.png" height="22" width="15">
+        </form>
+    </div>
+    <div style="text-align:center;">
+        <button class="google"> Google Search </button>
+        <button class="google"> I'm Feeling Lucky </button>
+    </div>
+    <footer>
+        <li style="float:left"><a class="left" href="#">Advertising</a>
+            <li style="float:left"><a class="left" href="#">Business</a>
+                <li style="float:left"><a class="left" href="#">About</a>
+                    <li style="float:right"><a class="right" href="#">Privacy</a>
+                        <li style="float:right"><a class="right" href="#">Terms</a>
+                            <li style="float:right"><a class="right" href="#">Settings</a>
+    </footer>
+</body>
+
+</html>
